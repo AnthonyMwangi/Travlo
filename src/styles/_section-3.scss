@@ -29,5 +29,25 @@
     }
   }
 
+}
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .section-3 {
+    width: 100vw;
+
+    .section-wrapper {
+      height: 12rem;
+      padding: 1rem 1.25rem;
+    }
+
+    .section-heading {
+      .menu {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+  }
 
 }

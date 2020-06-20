@@ -32,3 +32,17 @@
 
 
 }
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .section-2 {
+    width: 100vw;
+
+    .section-wrapper {
+      height: 15rem;
+      padding: 1rem 1.25rem;
+    }
+
+  }
+
+}

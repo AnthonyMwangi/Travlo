@@ -33,3 +33,30 @@
   }
 
 }
+
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .section-4 {
+    width: 100vw;
+
+    .section-wrapper {
+      height: 10rem;
+      padding: 1rem 1.25rem;
+      background: linear-gradient(229.33deg, rgba(14, 20, 20, 0.2) -41.78%, rgba(14, 20, 20, 0.75) 100.54%)
+    }
+
+    .section-heading {
+      .play-button {
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+      }
+    }
+
+  }
+
+}

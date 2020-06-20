@@ -98,3 +98,62 @@
   }
 
 }
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .section-1 {
+    width: 100vw;
+    grid-gap: 0rem;
+    padding: 1rem 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2.25rem auto;
+
+    .scroll-img-component {
+      display: none;
+    }
+
+    .heading {
+      padding: 0 1.25rem;
+    }
+
+    .main-component {
+      z-index: 2;
+      height: auto;
+      overflow: hidden;
+      padding: 2rem 1.25rem;
+    }
+
+    .plane-img-component {
+      z-index: 1;
+      top: -2rem;
+      width: 100%;
+      right: -7rem;
+      opacity: 0.55;
+      transform: scale(.8);
+    }
+
+    .world-map {
+      width: 100%;
+      height: auto;
+      opacity: .5;
+    }
+
+    .app-title {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    .app-caption {
+      max-width: 100%;
+      text-align: justify;
+    }
+
+    .call-to-action {
+      z-index: 2;
+      position: relative;
+    }
+
+  }
+
+}

@@ -55,10 +55,6 @@ input, select, textarea, button {
   grid-template-rows: 100vh;
   grid-template-columns: 1fr;
 
-  .app-header {
-    display: none;
-  }
-
   .app-body {
     display: grid;
     grid-template-rows: 46vh 1fr 14vh;
@@ -125,5 +121,62 @@ input, select, textarea, button {
   @import url(./_section-3.scss);
   @import url(./_section-4.scss);
   @import url(./_section-5.scss);
+
+}
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .App {
+
+    .app-body {
+      grid-template-columns: 1vw;
+      grid-template-rows: repeat(5,auto);
+
+      .section-1 { grid-row: 1; grid-column: 1 }
+      .section-2 { grid-row: 2; grid-column: 1 }
+      .section-3 { grid-row: 3; grid-column: 1 }
+      .section-4 { grid-row: 4; grid-column: 1 }
+      .section-5 { grid-row: 5; grid-column: 1 }
+
+      .app-section {
+        width: 100vw;
+      }
+
+      .app-section-footer {
+
+        &.sm {
+          padding: 0
+        }
+
+        .location-1 {
+          font-size: 1rem;
+          &.sm {
+            font-size: 1rem;
+          }
+        }
+
+        .location-2 {
+          font-size: .7rem;
+          font-weight: 600;
+          &.sm {
+            font-size: .7rem;
+            font-weight: 600;
+          }
+        }
+
+        .add-location {
+          width: 2.2rem;
+          height: 2.2rem;
+          &.sm {
+            width: 2.2rem;
+            height: 2.2rem;
+          }
+        }
+
+      }
+
+    }
+
+  }
 
 }
