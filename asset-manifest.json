@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Travlo/static/css/main.5770a396.chunk.css",
-    "main.js": "/Travlo/static/js/main.d6045f5f.chunk.js",
-    "main.js.map": "/Travlo/static/js/main.d6045f5f.chunk.js.map",
+    "main.css": "/Travlo/static/css/main.66b64b82.chunk.css",
+    "main.js": "/Travlo/static/js/main.843a4713.chunk.js",
+    "main.js.map": "/Travlo/static/js/main.843a4713.chunk.js.map",
     "runtime-main.js": "/Travlo/static/js/runtime-main.f6048c96.js",
     "runtime-main.js.map": "/Travlo/static/js/runtime-main.f6048c96.js.map",
-    "static/js/2.ef9ce7b9.chunk.js": "/Travlo/static/js/2.ef9ce7b9.chunk.js",
-    "static/js/2.ef9ce7b9.chunk.js.map": "/Travlo/static/js/2.ef9ce7b9.chunk.js.map",
+    "static/js/2.199a5371.chunk.js": "/Travlo/static/js/2.199a5371.chunk.js",
+    "static/js/2.199a5371.chunk.js.map": "/Travlo/static/js/2.199a5371.chunk.js.map",
     "index.html": "/Travlo/index.html",
-    "precache-manifest.1ff2c18391cebd5f558ff667fda6f3d2.js": "/Travlo/precache-manifest.1ff2c18391cebd5f558ff667fda6f3d2.js",
+    "precache-manifest.78f27f2cae6a17f163e67e55715d5422.js": "/Travlo/precache-manifest.78f27f2cae6a17f163e67e55715d5422.js",
     "service-worker.js": "/Travlo/service-worker.js",
-    "static/css/main.5770a396.chunk.css.map": "/Travlo/static/css/main.5770a396.chunk.css.map",
-    "static/js/2.ef9ce7b9.chunk.js.LICENSE.txt": "/Travlo/static/js/2.ef9ce7b9.chunk.js.LICENSE.txt",
-    "static/media/add_btn.svg": "/Travlo/static/media/add_btn.4e1c7a2d.svg",
+    "static/css/main.66b64b82.chunk.css.map": "/Travlo/static/css/main.66b64b82.chunk.css.map",
+    "static/js/2.199a5371.chunk.js.LICENSE.txt": "/Travlo/static/js/2.199a5371.chunk.js.LICENSE.txt",
+    "static/media/add_btn.svg": "/Travlo/static/media/add_btn.0c441fbd.svg",
     "static/media/airplane.svg": "/Travlo/static/media/airplane.40e756d3.svg",
     "static/media/book-button.svg": "/Travlo/static/media/book-button.124273c5.svg",
     "static/media/checkout-tab.svg": "/Travlo/static/media/checkout-tab.47e802ff.svg",
@@ -21,6 +21,7 @@
     "static/media/cta-icon.svg": "/Travlo/static/media/cta-icon.cefc8500.svg",
     "static/media/flight-tab.svg": "/Travlo/static/media/flight-tab.07ca1817.svg",
     "static/media/hotel-tab.svg": "/Travlo/static/media/hotel-tab.c7ae355e.svg",
+    "static/media/logo.svg": "/Travlo/static/media/logo.c2b1de55.svg",
     "static/media/main-text.svg": "/Travlo/static/media/main-text.63546b0f.svg",
     "static/media/menu.svg": "/Travlo/static/media/menu.7f05c06f.svg",
     "static/media/play-button.svg": "/Travlo/static/media/play-button.8c5473f1.svg",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f6048c96.js",
-    "static/js/2.ef9ce7b9.chunk.js",
-    "static/css/main.5770a396.chunk.css",
-    "static/js/main.d6045f5f.chunk.js"
+    "static/js/2.199a5371.chunk.js",
+    "static/css/main.66b64b82.chunk.css",
+    "static/js/main.843a4713.chunk.js"
   ]
 }

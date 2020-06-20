@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Travlo/precache-manifest.1ff2c18391cebd5f558ff667fda6f3d2.js"
+  "/Travlo/precache-manifest.78f27f2cae6a17f163e67e55715d5422.js"
 );
 
 self.addEventListener('message', (event) => {
