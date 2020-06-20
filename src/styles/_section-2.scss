@@ -1,0 +1,53 @@
+.section-2 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/section-2.png);
+
+  .section-wrapper {
+    padding: 2rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(229.33deg, rgba(14, 20, 20, 0.1) -41.78%, rgba(14, 20, 20, 0.2) 100.54%);
+  }
+
+  .section-heading {
+    display: grid;
+    grid-gap: .75rem;
+    align-items: center;
+    grid-template-columns: 10.5rem 1fr 1.5rem;
+    .title {
+      font-weight: 500;
+      font-size: .85rem;
+      color: var(--white);
+    }
+    .divider {
+      height: 1px;
+      background-color: var(--muted);
+    }
+  }
+
+  .section-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--muted);
+    .location-1 {
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    .location-2 {
+      color: #9E9E9E;
+      font-weight: 500;
+    }
+    .add-location {
+      height: 2.6rem;
+      width: 2.6rem;
+    }
+  }
+
+
+}

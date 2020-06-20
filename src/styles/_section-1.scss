@@ -1,0 +1,90 @@
+.section-1 {
+  display: grid;
+  grid-gap: 1.2rem;
+  color: var(--white);
+  padding: 2rem 2.5rem;
+  position: relative;
+  background-color: var(--dark);
+  grid-template-columns: 1rem 1fr;
+  grid-template-rows: 2.25rem 18rem auto;
+
+  .heading {
+    display: flex;
+    grid-column: 1/-1;
+    align-items: center;
+    justify-content: space-between;
+    .languages {
+      display: flex;
+      align-items: center;
+      .language {
+        cursor: pointer;
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .scroll-img-component {
+    cursor: pointer;
+    height: 18rem;
+    z-index: 2;
+  }
+
+  .plane-img-component {
+    z-index: 2;
+    top: -6.5rem;
+    right: -2.5rem;
+    position: absolute;
+    transform: scale(.8);
+    pointer-events: none;
+  }
+
+  .world-map {
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 18rem;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .main-component {
+    z-index: 2;
+    height: 18rem;
+    position: relative;
+    padding-top: .5rem;
+    padding-left: .75rem;
+  }
+
+  .app-title {
+    width: 20rem;
+    height: 7.7rem;
+    margin-bottom: 1.8rem;
+    pointer-events: none;
+  }
+
+  .app-caption {
+    max-width: 20rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .call-to-action {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1.85rem;
+    letter-spacing: 0.01rem;
+    background-color: var(--blue);
+    .cta-text {
+      font-weight: 400;
+      font-size: 0.85rem;
+      margin-right: .75rem;
+    }
+    .cta-icon {
+      width: 1.45rem;
+      height: 1.45rem;
+    }
+  }
+
+
+
+
+}

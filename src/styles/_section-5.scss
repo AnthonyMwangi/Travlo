@@ -1,0 +1,103 @@
+.section-5 {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  height: 14vh;
+  position: absolute;
+
+  .section-wrapper {
+    display: grid;
+    grid-template-rows: 14vh;
+    justify-content: flex-end;
+    grid-template-columns: repeat(5,1fr) 16vw;
+  }
+
+  .booking-button {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+
+    .button-text {
+      font-weight: 500;
+      margin-right: .75rem
+    }
+
+  }
+
+  .trial-tab {
+    display: flex;
+    padding: 0 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    .trial-icon {
+      height: 1.25rem;
+      margin-bottom: .5rem;
+    }
+    .trial-caption {
+      font-size: .7rem;
+      color: var(--white);
+    }
+  }
+
+  .booking-tab {
+    display: grid;
+    gap: 0 1.25rem;
+    padding: 0 1.5rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBEBEB;
+    grid-template-columns: 2rem 1fr;
+
+    &::before {
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 2px;
+      content: '';
+      display: block;
+      position: absolute;
+      background: radial-gradient(4175% 59.22% at 75% 50%, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    &:nth-child(2) {
+      &::before{ display: none }
+    }
+
+    .tab-icon {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .tab-title {
+      font-size: 1rem;
+      grid-column: 2/-1;
+      font-weight: 700;
+      color: var(--text-blue);
+      text-transform: uppercase;
+    }
+
+    .tab-caption {
+      font-size: .65rem;
+      font-weight: 500;
+      grid-column: 2/-1;
+      margin-top: 0.1rem;
+      color: var(--text-blue);
+    }
+
+    .tab-footer {
+      font-size: .6rem;
+      font-weight: 500;
+      grid-column: 2/-1;
+      margin-top: 0.15rem;
+      color: var(--text-blue);
+    }
+
+
+  }
+
+}

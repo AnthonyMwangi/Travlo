@@ -1,0 +1,85 @@
+@import './palette';
+
+* { box-sizing: border-box }
+
+html{
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: var(--text);
+  font-family: var(--default);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, select, textarea, button {
+  padding: 0;
+  border: none;
+  outline: none;
+  resize: none;
+  color: var(--white);
+  font-family: inherit;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--border);
+}
+
+.App {
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-template-columns: 1fr;
+
+  .app-header {
+    display: none;
+  }
+
+  .app-body {
+    display: grid;
+    grid-template-rows: 46vh 1fr 14vh;
+    grid-template-columns: 1fr 35vw 16vw;
+
+    .app-section {
+      //border: 2px solid red;
+    }
+
+    .section-1 { grid-row: 1/-1 }
+    .section-2 { grid-row: 1/-2 }
+    .section-4 { grid-column: 3/-1 }
+    .section-5 {
+      grid-row: 3/-1;
+      grid-column: 3/-1
+    }
+
+  }
+
+  @import url(./_section-1.scss);
+  @import url(./_section-2.scss);
+  @import url(./_section-3.scss);
+  @import url(./_section-4.scss);
+  @import url(./_section-5.scss);
+
+}
