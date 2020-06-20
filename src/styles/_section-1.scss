@@ -13,6 +13,9 @@
     grid-column: 1/-1;
     align-items: center;
     justify-content: space-between;
+    .logo {
+      cursor: pointer;
+    }
     .languages {
       display: flex;
       align-items: center;
@@ -58,33 +61,40 @@
   .app-title {
     width: 20rem;
     height: 7.7rem;
-    margin-bottom: 1.8rem;
     pointer-events: none;
+    margin-bottom: 1.5rem;
   }
 
   .app-caption {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: .7rem;
     max-width: 20rem;
     margin-bottom: 1.5rem;
+    letter-spacing: 0.01rem;
   }
 
   .call-to-action {
     display: flex;
+    cursor: pointer;
     align-items: center;
-    padding: .5rem 1.85rem;
+    padding: .65rem 2rem;
+    border-radius: 0.1rem;
     letter-spacing: 0.01rem;
     background-color: var(--blue);
+    transition: all .3s ease-in-out;
+    &:hover {
+      background-color: darken(#0F4EAA,5);
+    }
     .cta-text {
       font-weight: 400;
-      font-size: 0.85rem;
+      font-size: 0.75rem;
       margin-right: .75rem;
     }
     .cta-icon {
-      width: 1.45rem;
-      height: 1.45rem;
+      width: 1.25rem;
+      height: 1.25rem;
     }
   }
-
-
-
 
 }

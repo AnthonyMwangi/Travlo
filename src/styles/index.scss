@@ -1,4 +1,5 @@
 @import './palette';
+@import './fonts';
 
 * { box-sizing: border-box }
 
@@ -12,7 +13,8 @@ body {
   padding: 0;
   font-size: 16px;
   color: var(--text);
-  font-family: var(--default);
+  font-weight: 400;
+  font-family: var(--regular);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -62,16 +64,58 @@ input, select, textarea, button {
     grid-template-rows: 46vh 1fr 14vh;
     grid-template-columns: 1fr 35vw 16vw;
 
-    .app-section {
-      //border: 2px solid red;
-    }
-
     .section-1 { grid-row: 1/-1 }
     .section-2 { grid-row: 1/-2 }
     .section-4 { grid-column: 3/-1 }
     .section-5 {
       grid-row: 3/-1;
       grid-column: 3/-1
+    }
+
+    .app-section-footer {
+      display: flex;
+      color: var(--muted);
+      align-items: center;
+      text-transform: uppercase;
+      justify-content: space-between;
+
+      &.sm {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+      }
+
+      .location-1 {
+        font-weight: 700;
+        font-size: 1.25rem;
+        letter-spacing: 0.005rem;
+        &.sm {
+          font-size: 1rem;
+        }
+      }
+
+      .location-2 {
+        color: #9E9E9E;
+        font-weight: 600;
+        &.sm {
+          font-size: .6rem;
+          font-weight: 700;
+        }
+      }
+
+      .add-location {
+        width: 2.6rem;
+        height: 2.6rem;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        &:hover {
+          transform: scale(1.2);
+        }
+        &.sm {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+
     }
 
   }

@@ -21,7 +21,7 @@ export default function AppSectionFive() {
           icon={flight_tab}
           title='FLIGHT'
           caption='SF0 -><- SPAIN'
-          footer='09 AUG 2020, 11.45 AM'
+          footer='09 AUG 2020, 11AM'
         />
 
         <BookingTab

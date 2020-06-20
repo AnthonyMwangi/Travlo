@@ -14,14 +14,14 @@ export default function AppSectionTwo() {
           <img src={airplane_image} alt="Airplane"/>
         </div>
 
-        <div className="section-footer">
+        <div className="app-section-footer">
 
           <div className="location">
             <div className="location-1">SAN FRANCISCO</div>
-            <div className="location-2">CALPE ALICANTE</div>
+            <div className="location-2">American Canyon</div>
           </div>
 
-          <img src={button_image} className='add-location' alt="add-button"/>
+          <img src={button_image} alt="add-button" className='add-location'/>
 
         </div>
 

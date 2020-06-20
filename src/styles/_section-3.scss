@@ -21,26 +21,11 @@
     .menu {
       width: 2.5rem;
       height: 2.5rem;
-    }
-  }
-
-  .section-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--muted);
-    .location-1 {
-      font-weight: 700;
-      font-size: .8rem;
-    }
-    .location-2 {
-      color: #9E9E9E;
-      font-weight: 500;
-      font-size: .5rem;
-    }
-    .add-location {
-      height: 1.75rem;
-      width: 1.75rem;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+      &:hover {
+        transform: scale(1.2);
+      }
     }
   }
 

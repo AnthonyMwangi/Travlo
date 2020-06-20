@@ -14,14 +14,14 @@ export default function AppSectionFour() {
           <img className='play-button' src={play_button} alt="Menu"/>
         </div>
 
-        <div className="section-footer">
+        <div className="app-section-footer">
 
           <div className="location">
-            <div className="location-1">SPAIN</div>
-            <div className="location-2">CALPE ALICANTE</div>
+            <div className="location-1 sm">ITALY</div>
+            <div className="location-2 sm">Bolzano</div>
           </div>
 
-          <img src={button_image} className='add-location' alt="add-button"/>
+          <img src={button_image} alt="add-button" className='add-location sm'/>
 
         </div>
 

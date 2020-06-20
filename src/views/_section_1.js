@@ -5,13 +5,14 @@ import app_title_svg from '../images/main-text.svg'
 import component_1 from '../images/component-1.svg'
 import component_2 from '../images/component-2.svg'
 import world_map from '../images/world-map.png'
+import app_logo from '../images/logo.svg'
 
 export default function section_1() {
   return (
     <div className="app-section section-1">
 
       <div className="heading">
-        <div className="logo">Travlo</div>
+        <img src={app_logo} alt='Travlo' className="logo" />
         <div className="languages">
           <div className="language">EN</div>
           <div className="language">DE</div>

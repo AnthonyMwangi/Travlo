@@ -13,14 +13,14 @@ export default function AppSectionThree() {
           <link rel="stylesheet" href="./"/>
         </div>
 
-        <div className="section-footer">
+        <div className="app-section-footer sm">
 
           <div className="location">
-            <div className="location-1">SPAIN</div>
-            <div className="location-2">CALPE ALICANTE</div>
+            <div className="location-1 sm">SPAIN</div>
+            <div className="location-2 sm">CALPE ALICANTE</div>
           </div>
 
-          <img src={add_btn} className='location' alt="add-button"/>
+          <img src={add_btn} alt="add-button" className='add-location sm'/>
 
         </div>
 

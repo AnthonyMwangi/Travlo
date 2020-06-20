@@ -15,10 +15,15 @@
 
   .booking-button {
     display: flex;
+    cursor: pointer;
     color: var(--white);
     align-items: center;
     justify-content: center;
     background-color: var(--blue);
+    transition: all .3s ease-in-out;
+    &:hover {
+      background-color: darken(#0F4EAA,5);
+    }
 
     .button-text {
       font-weight: 500;
@@ -29,10 +34,17 @@
 
   .trial-tab {
     display: flex;
+    cursor: pointer;
     padding: 0 1.5rem;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      background-color: var(--blue);
+    }
+
     .trial-icon {
       height: 1.25rem;
       margin-bottom: .5rem;
@@ -46,12 +58,20 @@
   .booking-tab {
     display: grid;
     gap: 0 1.25rem;
+    cursor: pointer;
     padding: 0 1.5rem;
     position: relative;
     align-items: center;
+    color: var(--text-blue);
     justify-content: center;
     background-color: #EBEBEB;
     grid-template-columns: 2rem 1fr;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: var(--white) !important;
+      background-color: darken(#0F4EAA,5);
+    }
 
     &::before {
       top: 0;
@@ -77,26 +97,24 @@
       font-size: 1rem;
       grid-column: 2/-1;
       font-weight: 700;
-      color: var(--text-blue);
+      font-family: var(--bold);
       text-transform: uppercase;
+      letter-spacing: 0.02rem;
     }
 
     .tab-caption {
       font-size: .65rem;
-      font-weight: 500;
+      font-weight: 600;
       grid-column: 2/-1;
       margin-top: 0.1rem;
-      color: var(--text-blue);
     }
 
     .tab-footer {
-      font-size: .6rem;
-      font-weight: 500;
+      font-size: .65rem;
+      font-weight: 600;
       grid-column: 2/-1;
-      margin-top: 0.15rem;
-      color: var(--text-blue);
+      margin-top: 0.25rem;
     }
-
 
   }
 
