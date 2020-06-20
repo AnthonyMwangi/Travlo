@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Travlo/static/css/main.5770a396.chunk.css",
+    "main.js": "/Travlo/static/js/main.d6045f5f.chunk.js",
+    "main.js.map": "/Travlo/static/js/main.d6045f5f.chunk.js.map",
+    "runtime-main.js": "/Travlo/static/js/runtime-main.f6048c96.js",
+    "runtime-main.js.map": "/Travlo/static/js/runtime-main.f6048c96.js.map",
+    "static/js/2.ef9ce7b9.chunk.js": "/Travlo/static/js/2.ef9ce7b9.chunk.js",
+    "static/js/2.ef9ce7b9.chunk.js.map": "/Travlo/static/js/2.ef9ce7b9.chunk.js.map",
+    "index.html": "/Travlo/index.html",
+    "precache-manifest.1ff2c18391cebd5f558ff667fda6f3d2.js": "/Travlo/precache-manifest.1ff2c18391cebd5f558ff667fda6f3d2.js",
+    "service-worker.js": "/Travlo/service-worker.js",
+    "static/css/main.5770a396.chunk.css.map": "/Travlo/static/css/main.5770a396.chunk.css.map",
+    "static/js/2.ef9ce7b9.chunk.js.LICENSE.txt": "/Travlo/static/js/2.ef9ce7b9.chunk.js.LICENSE.txt",
+    "static/media/add_btn.svg": "/Travlo/static/media/add_btn.4e1c7a2d.svg",
+    "static/media/airplane.svg": "/Travlo/static/media/airplane.40e756d3.svg",
+    "static/media/book-button.svg": "/Travlo/static/media/book-button.124273c5.svg",
+    "static/media/checkout-tab.svg": "/Travlo/static/media/checkout-tab.47e802ff.svg",
+    "static/media/component-1.svg": "/Travlo/static/media/component-1.39282aaa.svg",
+    "static/media/component-2.svg": "/Travlo/static/media/component-2.74f1052a.svg",
+    "static/media/cta-icon.svg": "/Travlo/static/media/cta-icon.cefc8500.svg",
+    "static/media/flight-tab.svg": "/Travlo/static/media/flight-tab.07ca1817.svg",
+    "static/media/hotel-tab.svg": "/Travlo/static/media/hotel-tab.c7ae355e.svg",
+    "static/media/main-text.svg": "/Travlo/static/media/main-text.63546b0f.svg",
+    "static/media/menu.svg": "/Travlo/static/media/menu.7f05c06f.svg",
+    "static/media/play-button.svg": "/Travlo/static/media/play-button.8c5473f1.svg",
+    "static/media/seats-tab.svg": "/Travlo/static/media/seats-tab.e3502f2f.svg",
+    "static/media/index.scss": "/Travlo/static/media/section-4.b4d546e5.png",
+    "static/media/travels-tab.svg": "/Travlo/static/media/travels-tab.0c36d674.svg",
+    "static/media/world-map.png": "/Travlo/static/media/world-map.ddab56c6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6048c96.js",
+    "static/js/2.ef9ce7b9.chunk.js",
+    "static/css/main.5770a396.chunk.css",
+    "static/js/main.d6045f5f.chunk.js"
+  ]
+}
